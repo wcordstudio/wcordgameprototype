@@ -1,0 +1,171 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+
+*{font-family: 'Nunito Sans', sans-serif;margin: 0;cursor:default;}
+*::selection{background:#f1f1f1;color: rgb(110, 110, 110);}
+
+h1{font-weight: bold;}
+h2{
+    font-weight: 900;
+    background: -webkit-linear-gradient(45deg,#7ec384,#5dc6ce 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 10px 0px;
+    user-select: none;
+}
+header{
+    background-color: white;
+    display:flex;
+    user-select: none;
+    position: fixed;
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 20px;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 3px;
+    transition: ease-in-out 0.8s;
+}
+header:hover{
+    background-color: white;
+    display:flex;
+    user-select: none;
+    position: fixed;
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 20px;
+    margin: 10px;
+    border-radius: 14px;
+    padding: 3px;
+    transition: ease-in-out 0.8s;
+    transform: translateY(5px);
+}
+header img{margin-right: 20px;}
+header li{list-style-type: none;font-weight: 800;text-transform: uppercase;margin: 0px 3px;}
+header a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: ease 0.8s
+}
+header a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 99px;
+    transition: ease 0.8s
+}
+.selected{background: linear-gradient(90deg, rgba(126,195,132,1) 0%,#5dc6ce 100%);border-radius: 99px;color: white;}
+.selected:hover{color: white;}
+
+.head{
+    background: linear-gradient(90deg, rgba(126,195,132,1) 0%, #5dc6ce 100%);
+    color: white;
+    text-align: center;
+    padding: 10em 5em;
+    user-select: none;
+}
+.container{width: 70%;margin: 60px auto;}
+hr{margin: 35px 0px;border-top: 3px rgb(236, 236, 236) solid;}
+
+.trailer{
+    background-color: rgb(221, 221, 221);
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px;
+    display: none;
+}
+
+div.head h3{opacity: 70%;}
+
+#buy{
+    display: flex;
+    float: right;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: right;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.SIGNUP{
+    background-color: white;
+    border-radius: 99px;
+    padding: 10px 35px;
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.096) 1px 1px 26px;
+}
+
+/* Blog */
+.blog{
+    background-color: rgb(240, 240, 240);
+    border-radius: 14px;
+    padding: 1em;
+    margin-bottom: 10px;
+    transition: ease 1s;
+}
+.blog:hover{
+    background-color: rgb(228, 228, 228);
+    transition: ease 1s;
+}
+
+.blog > .title{font-size: 18px;text-transform: uppercase;font-weight: 700;}
+.blog > p {text-align: justify;color: gray;}
+
+.date{font-size: 14px;color: gray;}
+
+.warning{
+    background-color: rgb(241, 83, 83);
+    display:flex;
+    user-select: none;
+    position: fixed;
+    width: 99%;
+    box-shadow: rgba(0, 0, 0, 0.178) 0px 0px 20px;
+    margin: 90px 10px;
+    border-radius: 14px;
+    padding: 5px;
+    transition: ease-in-out 0.8s;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.warning > span{font-weight: bold;}
+
+.signup{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    transform: translateY(-40px);
+    border-radius: 15px;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+}
+
+.signup > div > section{
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    border: solid rgb(204, 204, 204) 1px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 3em;
+}
+.signup > div > section:hover{
+    margin: auto;
+    justify-content: center;
+    border: solid rgb(155, 155, 155) 1px;
+    background-color: #dbdbdb;
+    border-radius: 15px;
+}
+
+.signup > div > section > a{
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    user-select: none;
+}

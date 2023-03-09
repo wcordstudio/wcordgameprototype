@@ -1,0 +1,5 @@
+.container{transition: ease 1s;}
+.container:hover{transform: translateX(10px);transition: ease 1s;}
+
+.question > .title{font-size: 18px;text-transform: uppercase;font-weight: 800;}
+.question > p {text-align: justify;color: gray;}
